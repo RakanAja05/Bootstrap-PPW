@@ -1,0 +1,141 @@
+/* Custom Colors */
+.bg-blue {
+    background-color:#1E3A8A !important;
+  }
+  .bg-gray {
+    background-color: #5E81AC;
+  }
+  .text-brown {
+    color: #B78259 !important;
+  }
+  
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6B9DFC;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 1rem;
+    margin: 10px 20px;
+  }
+  
+  .navbar .logo-header img {
+    height: 70px;
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-warning {
+    border: none;
+  }
+  
+  .about-section p,h2{
+    width: fit-content;
+    padding: 4px;
+  }
+  .video {
+    background-color: #1e3589;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Card Styling */
+  .card {
+    border: none;
+  }
+  .benefit-img {
+    display: flex;
+    padding: 0 10px;
+    gap: 10px;
+  }
+
+  .benefit-section img {
+    width: 50px;
+    height: 50px;
+    background-color: #3B3B3B;
+    border-radius: 5px;
+}
+  .col-md-4 {
+    display: flex;
+    margin-bottom: 30px; 
+  }
+  .col-section p,ul{
+    font-size: 14px;
+    font-family: "Inria Serif", serif;
+    text-align: start;
+  }
+
+  .benefit-img h5 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+}
+  
+.site-footer {
+  color: black;
+}
+
+.site-footer h4,
+.site-footer p,
+.site-footer a,
+.site-footer span {
+  color: black !important;
+}
+
+  
+  .site-footer .contact-item i {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  .site-footer .col-md-4{
+    display: flex;
+  }
+.review-section {
+    color: white; 
+    padding: 60px 20px; 
+  }
+  
+  .rating-section {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    gap: 15px; 
+  }
+  
+  .rating-score {
+    font-size: 4rem; 
+    font-weight: bold; 
+  }
+  
+  .stars {
+    font-size: 2rem; 
+    color: gold; 
+  }
+  
+  .review-platform {
+    font-size: 1.25rem; 
+    font-style: italic; 
+  }
+
+  .contact-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
